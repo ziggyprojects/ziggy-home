@@ -1,0 +1,81 @@
+.resource-page-container {
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  background-image: linear-gradient(to bottom,  #4ef0d5, #23c8e7, #03a9f4);
+}
+
+.resource-content-container {
+padding-left: 10%;
+padding-right: 10%;
+padding-bottom: 10%;
+font-family: Lato;
+background-image: linear-gradient(to top, #f4f4f4, #ffffff, #ffffff);
+color: black;
+overflow-y: auto;
+-webkit-overflow-scrolling: touch;
+scroll-behavior: smooth;
+position: relative;
+/* height: calc(100% - 45px); */
+/* min-width: 100vw;
+min-height: 100vh; */
+/* display: flex; */
+/* justify-content: center; */
+/* align-items: center; */
+/* flex-direction: column; */
+top: 2.5vh;
+left: 1.5%;
+right: 1.5%;
+width: 77.3%;
+min-height: 95vh;
+height: 95vh;
+}
+
+.resource-content-container p {
+font-size: 15px;
+line-height: 35px;
+}
+
+.resource-content-container h1 {
+font-weight: 600;
+font-size: 30px;
+margin-bottom: 25px;
+}
+
+.resource-content-container h3 {
+font-weight: 600;
+font-size: 25px;
+margin-top: 45px;
+margin-bottom: 25px;
+}
+
+.resource-content-container h4 {
+font-weight: 600;
+font-size: 20px;
+margin-top: 35px;
+margin-bottom: 15px
+}
+
+.resource-logo img {
+position: relative;
+margin-top: 40px;
+left: -40px;
+width: 400px;
+height: 150px;
+}
+
+@media only screen and (max-width: 450px) {
+.resource-logo img {
+  /* position: relative;
+  margin-top: 40px; */
+  left: -20px;
+  width: 200px;
+  height: 75px;
+}
+}
+
+.resource-content {
+}
