@@ -302,6 +302,12 @@ body{
   }
 }
 
+.copy-right-bar {
+  font-size: .7vw;
+  font-weight: 300;
+}
+
+
 .link-container {
   display: flex;
   justify-content: center;
