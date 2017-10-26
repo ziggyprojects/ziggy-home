@@ -245,7 +245,7 @@ body{
 }
 
 .index-email-btn:hover {
-  background-image: linear-gradient(111deg, #faaa61, #e21a76);
+  background-image: linear-gradient(111deg, #FB9538, #EE0871);
 }
 
 @media screen and (max-width: 440px) {
